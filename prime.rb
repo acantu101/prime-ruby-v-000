@@ -8,3 +8,4 @@ puts "That's not an integer." unless n.is_a? Integer
      is_prime = false
    end
  end
+end
