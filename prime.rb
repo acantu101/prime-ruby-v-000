@@ -1,8 +1,10 @@
+
 # Add  code here!
 def prime?(number)
-if num < 0 or num == 0 or num == 1
-    return false
+
+if number > 0 || number/number <= 1
+    return true
 else
-  return true
+  return false
 end
 end
