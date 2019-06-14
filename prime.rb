@@ -1,8 +1,10 @@
 
 # Add  code here!
 def prime?(n)
-(2..n-1).to_a
-if n % n == 0
+new_n = (2..n-1).to_a
+new_n.each do |i|
+if 
+n % i == 0
 return false
 else
   return true
